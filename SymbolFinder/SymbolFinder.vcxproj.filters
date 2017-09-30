@@ -13,10 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{14740914-fe0c-453c-86de-5a9afd44aa93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LibSymbolMatcher">
+      <UniqueIdentifier>{3143eb75-98fc-4052-b7c7-b73645d70e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ObjSymbolMatcher">
+      <UniqueIdentifier>{52894048-ce16-463c-a612-153e3207267b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumSubFiles.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MapFileToMem.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSymbolMatcher.cpp">
+      <Filter>源文件\ObjSymbolMatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="LibSymbolMatcher.cpp">
+      <Filter>源文件\LibSymbolMatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchParser.cpp">
+      <Filter>源文件\LibSymbolMatcher</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrorHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MapFileToMem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="staticlib.h">
+      <Filter>源文件\LibSymbolMatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>源文件\LibSymbolMatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
